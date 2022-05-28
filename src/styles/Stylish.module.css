@@ -1,0 +1,11 @@
+.purple {
+    height: 100%;
+    background-color: rgb(117, 83, 133);
+    color: #fff;
+    padding: 10px;
+}
+
+.purple h1 {
+    margin: 0;
+    font-size: 20px;
+}

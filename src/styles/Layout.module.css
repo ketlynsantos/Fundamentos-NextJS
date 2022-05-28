@@ -1,0 +1,27 @@
+.layout {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.header h1 {
+    font-size: 30px;
+}
+
+.header a {
+    background-color: crimson;
+    padding: 5px 12px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.body {
+    padding: 0 12px;
+    height: 100%;
+}
