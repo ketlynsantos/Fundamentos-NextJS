@@ -13,7 +13,7 @@ export default function Integration01() {
     //         .then(data => setClient(data))
     // }
 
-    //De uma forma assincrona
+    //De uma forma assincrona 
     async function getClient() {
         const res = await fetch(`http://localhost:3000/api/clients/${code}`)
         const data = await res.json()
