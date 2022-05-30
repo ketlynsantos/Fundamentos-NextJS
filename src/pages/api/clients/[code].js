@@ -4,6 +4,6 @@ export default function handler(req, res) {
     res.status(200).json({
         id: code,
         name: `Kety ${code}`,
-    email: `kety${code}@gmail.com`
+        email: `kety${code}@gmail.com`
     })
 }
